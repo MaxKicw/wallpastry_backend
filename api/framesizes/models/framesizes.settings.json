@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "framesizes",
+  "info": {
+    "name": "framesizes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
