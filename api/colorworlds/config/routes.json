@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colorworlds",
+      "handler": "colorworlds.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colorworlds/count",
+      "handler": "colorworlds.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colorworlds/:id",
+      "handler": "colorworlds.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colorworlds",
+      "handler": "colorworlds.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colorworlds/:id",
+      "handler": "colorworlds.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colorworlds/:id",
+      "handler": "colorworlds.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
