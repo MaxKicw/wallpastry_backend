@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paintstyles",
+      "handler": "paintstyles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paintstyles/count",
+      "handler": "paintstyles.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paintstyles/:id",
+      "handler": "paintstyles.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/paintstyles",
+      "handler": "paintstyles.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paintstyles/:id",
+      "handler": "paintstyles.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paintstyles/:id",
+      "handler": "paintstyles.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

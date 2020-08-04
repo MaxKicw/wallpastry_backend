@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paintstyles",
+  "info": {
+    "name": "paintstyles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
