@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bordercolors",
+  "info": {
+    "name": "bordercolors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "colorcode": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
