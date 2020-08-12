@@ -23,6 +23,12 @@
     },
     "amount": {
       "type": "decimal"
+    },
+    "orderid": {
+      "type": "uid"
+    },
+    "email": {
+      "type": "string"
     }
   }
 }
